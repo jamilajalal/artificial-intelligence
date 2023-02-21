@@ -1,0 +1,24 @@
+.apply-right-side h1,p{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.apply-left-side{
+    padding-top:100px;
+}
+.apply-right-side{
+    padding-top:200px;
+}
+.apply{
+    padding: 20px 250px;
+    }
+    @media(max-width:1400px){
+      .apply{
+        padding:20px 150px;
+      }
+    }
+    @media(max-width:1090px){
+      .apply{
+        padding:20px 20px;
+      }
+    }
+  
