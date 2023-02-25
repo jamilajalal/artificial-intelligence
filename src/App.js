@@ -6,6 +6,11 @@ import Introduction from './components/Introduction';
 import Partnyorlar from './components/Partnyorlar';
 import Apply from './components/Apply';
 import AwardsContainer from './components/AwardsContainer';
+import Solutions from './components/Solutions';
+import Footer from './components/Footer';
+
+
+
 
 
 function App() {
@@ -16,7 +21,10 @@ function App() {
    <Partnyorlar />
    <Apply />
    <AwardsContainer />
+   <Solutions />
+  <Footer />
 
+ 
 
  
     </>

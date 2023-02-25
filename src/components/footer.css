@@ -1,0 +1,33 @@
+
+.footer{
+    display: flex;
+    padding: 50px 50px;
+}
+.card a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #aaa;
+    padding: 10px;
+}
+.card h5{
+    color: #fff;
+    font-size: 16px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    background-color:#222 ;
+    border: none;
+}
+@media(max-width:1380px){
+    .footer{
+        padding: 50px 10px;
+    }
+}
+@media(max-width:1180px){
+    .footer{
+        padding: 50px 5px;
+    }
+}

@@ -1,0 +1,19 @@
+.solutions{
+    padding: 150px 250px;
+}
+.solutions h1{
+    padding-bottom: 20px;
+}
+.solutions p{
+    color:#aaa
+}
+@media(max-width:1400px){
+    .solutions{
+      padding:150px 150px;
+    }
+  }
+  @media(max-width:1090px){
+    .solutions{
+      padding:150px 20px;
+    }
+  }
