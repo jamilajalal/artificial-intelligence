@@ -2,6 +2,7 @@
 .footer{
     display: flex;
     padding: 50px 50px;
+   
 }
 .card a{
     text-decoration: none;
@@ -18,10 +19,10 @@
     flex-direction: column;
 }
 .card{
-    background-color:#222 ;
     border: none;
+    
 }
-@media(max-width:1380px){
+/* @media(max-width:1380px){
     .footer{
         padding: 50px 10px;
     }
@@ -30,4 +31,24 @@
     .footer{
         padding: 50px 5px;
     }
+} */
+.logoDiv{
+    position: relative;
+    right: 10px;
+}
+
+.cards{
+    background-color: #222 !important;
+}
+@media(max-width:1455px) and (min-width:920px)  {
+    .footer{
+        padding:10px;
+    }
+    .cards{
+        width: 25%;
+    }
+}
+.card-img-top{
+margin: 20px !important;
+  
 }

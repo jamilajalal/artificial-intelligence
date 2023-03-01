@@ -62,12 +62,33 @@ padding: 20px 250px;
   transition: width 1.7s ease;
   
 }
-.navbar a{
-  color: #aaa;
-  font-size: 20px;
-}
-.navbar a:hover{
+.nav-link{
   color: #fff;
-  transition: color .8s ease;
+  }
   
+.nav-link:hover{
+color: #fff;
+}
+
+
+.nav-link{
+position: relative;
+margin-right: 7px;
+}
+.nav-link::before{
+  content: "";
+position: absolute;
+width:100%;
+background-color: #fff;
+height: 4px;
+bottom:0;
+transform-origin: right;
+transform: scaleX(0);
+transition: transform 1.4s ease;
+}
+.nav-link:hover::before{
+  content: "";
+  transform-origin: left;
+  transform: scaleX(1);
+
 }

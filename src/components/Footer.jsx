@@ -11,19 +11,21 @@ const Footer = () => {
   return (
     <div className='footer row'>
 
-<div class="card col-12 col-md-4 col-lg-2">
+<div class="cards card col-12 col-md-4 col-lg-2">
   <img src={artificiallogo} class="card-img-top" alt="..."/>
   <div class="card-body">
     <p class="card-text">Lorem ipsum is placeholder text <br /> commonly used in the graphic, print, and <br /> layouts and visual mockups.</p>
+    <div className="logoDiv">
     <a href="#" ><img src={newslogo} alt="" /></a>
     <a href="#" ><img src={tellogo} alt="" /></a>
     <a href="#" ><img src={locallogo} alt="" /></a>
+    </div>
   </div>
 </div>
 
 
 
-<div class="card col-12  col-md-4 col-lg-2">
+<div class="cards card col-12  col-md-4 col-lg-2">
   <div class="card-body">
     <h5 class="card-title">INFORMATION</h5>
 
@@ -37,7 +39,7 @@ const Footer = () => {
   </div>
 </div>
 
-<div class="card col-12 col-md-4 col-lg-2">
+<div class="cards card col-12 col-md-4 col-lg-2">
   <div class="card-body">
     <h5 class="card-title">FOOTER MENU</h5>
 
@@ -50,7 +52,7 @@ const Footer = () => {
  
   </div>
 </div>
-<div class="card col-12 col-md-4 col-lg-2">
+<div class="cards card col-12 col-md-4 col-lg-2">
   <div class="card-body">
     <h5 class="card-title">USEFUL LINKS</h5>
 
@@ -64,7 +66,7 @@ const Footer = () => {
   </div>
 </div>
 
-<div class="card col-12 col-md-4 col-lg-2">
+<div class="cards card col-12 col-md-4 col-lg-2">
   <div class="card-body">
     <h5 class="card-title">ABOUT THE STORE</h5>
     <p class="card-text">Lorem ipsum is placeholder text <br /> commonly used in the graphic, print, and <br /> layouts and visual mockups.</p>

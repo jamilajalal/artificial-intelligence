@@ -1,0 +1,16 @@
+.about{
+    height: 100vh;
+}
+.about-left-side img{
+    width: 500px;
+    
+}
+.about-left-side{
+padding-top: 100px;
+}
+.about-right-side p{
+font-size:35px
+}
+.about-right-side{
+    padding-top: 100px;
+}
